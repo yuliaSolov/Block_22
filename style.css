@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+#party-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.party {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.party h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.party p {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.party .details-button,
+.party .delete-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.party .details-button {
+  margin-right: 10px;
+}
+
+.party .details-button:hover,
+.party .delete-button:hover {
+  background-color: #0056b3;
+}
+
+.party-details {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.party-details h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.party-details p {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.party-details ul {
+  margin-top: 10px;
+}
+
+.party-details ul li {
+  margin-bottom: 5px;
+}
+
+.party-details .close-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.party-details .close-button:hover {
+  background-color: #c82333;
+}
